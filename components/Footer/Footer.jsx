@@ -7,7 +7,7 @@ const Footer = () => {
     const ler = new Date();
     const year = ler.getFullYear();
     return (
-        <div className={styles.footer_container} key={index}>
+        <div className={styles.footer_container} >
             <div className={styles.footer_top}>
                 <div className={styles.footer_first}>
                     <p className="footer_ftext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim adipisci omnis, error quisquam hic veniam odit, quidem asperiores maxime consequatur recusandae. Fuga, aut.</p>
