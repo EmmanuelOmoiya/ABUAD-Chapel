@@ -24,7 +24,7 @@ const Home = () => {
         <meta
           key="og-url"
           property="og:url"
-          content={`https://twitter.com/Emmanuel_Omoiya`}
+          content={`https://twitter.com/abuadchapel`}
         />
         <meta key="twitter-title" name="twitter:title" content="ABUAD Chapel" />
         <meta
@@ -33,7 +33,7 @@ const Home = () => {
           content="Afe Babalola University (ABUAD) Chapel"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Emmanuel_Omoiya" />
+        <meta name="twitter:site" content="@abuadchapel" />
         <meta
           name="twitter:image"
           content={`/Favicon.svg`}
