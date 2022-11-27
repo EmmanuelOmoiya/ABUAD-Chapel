@@ -1,0 +1,87 @@
+.events{
+    font-family: 'Grand-Hotel', sans-serif;
+    font-weight: 1.2rem;
+    font-size: 1.2rem;
+    color: #178d13;
+    text-align: center;
+    font-weight: 600px;
+    align-items: center;
+}
+
+.events_container{
+    padding-bottom: 2rem;
+}
+
+.upcoming{
+    font-size: 2.8rem;
+    font-weight: 700;
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+    margin-top: -1.6rem;
+    align-items: center;
+}
+
+.poster{
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+}
+
+.events_tray{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.event_detail{
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 1.1rem;
+    /* width: 335px; */
+    height: auto;
+}
+
+.poster_title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+}
+
+.poster_description{
+    width: 303px;
+    font-size: 0.9rem;
+    color: #000;
+    opacity: .6;
+}
+
+.getmin{
+    border: none;
+    padding: 0.7rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #26b094;
+    font-family: inherit;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .events_tray{
+        justify-content: center;
+        padding: 0;
+    }
+
+    .poster_description{
+        width: auto;
+    }
+
+    .poster{
+        width: 100%;
+    }
+
+    .event_detail{
+        width: 85%;
+    }
+}

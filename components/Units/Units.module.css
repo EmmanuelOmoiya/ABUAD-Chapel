@@ -1,0 +1,25 @@
+.units_container{
+    height: 60vh;
+    background-color: #122c45;
+    color: #fff;
+    padding: 2rem;
+}
+
+.our_units{
+    font-family: 'Grand-Hotel', sans-serif;
+    font-weight: 1.2rem;
+    font-size: 1.2rem;
+    color: #178d13;
+    text-align: center;
+    font-weight: 600px;
+    align-items: center;
+}
+
+.units_in{
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+    margin-top: -1.6rem;
+    align-items: center;
+}

@@ -1,0 +1,59 @@
+.whatwedo_container{
+    height: auto;
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+
+.what_first,
+.what_second,
+.what_third{
+    display: flex;
+    padding: 2.5rem;
+    gap: 1rem;
+    background-color: rgba(18, 44, 69, 0.814);
+    color: #fff;
+}
+
+.wha_title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+}
+
+.whthi_number,
+.whsec_number,
+.whfir_number{
+    padding-top: -.4rem;
+    font-size: 1.6rem;
+    font-family: 'Grand-Hotel', sans-serif;
+}
+
+.wha_cover1{
+    background-size: cover;
+    background-image: url('/assets/images/whacover1.jpg');
+}
+
+.wha_cover2{
+    background-size: cover;
+    background-image: url('/assets/images/kidspring.jpg');
+}
+
+.wha_cover3{
+    background-size: cover;
+    background-image: url('/assets/images/fuse.jpg');
+}
+
+/* .wha_cover2{
+    background-image: url('/assets/images/');
+} */
+
+.whacoverbg{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .whatwedo_container{
+        display: block;
+    }
+}

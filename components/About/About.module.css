@@ -1,0 +1,42 @@
+.about_container{
+    height: 85vh;
+    background-color: #fff;
+    padding: 4rem 3.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_text,
+.about_video{
+    flex: 1;
+}
+
+.welcome_text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #26b094;
+    font-family: 'Grand-Hotel', sans-serif;
+}
+
+.textabtchr{
+    font-size: 1.7rem;
+    margin-top: -1rem;
+    font-weight: 700;
+    font-family: 'Sora', sans-serif;
+}
+
+.watch_vid{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+    color: #26b094;
+    padding-top: 0.8rem;
+}
+
+@media screen and (max-width: 700px) {
+    .about_container{
+        display: block;
+        height: auto;
+        padding: 2rem;
+    }
+}

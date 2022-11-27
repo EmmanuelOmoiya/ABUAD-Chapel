@@ -1,0 +1,70 @@
+.pastors_container{
+    height: 100vh;
+    padding: 1.7rem 3.4rem;
+}
+
+.lead_pastors{
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: 'Grand-Hotel', sans-serif;
+    text-align: center;
+    align-items: center;
+    color: #178d13;
+}
+
+.meet_pastors{
+    font-weight: 700;
+    font-size: 2.1rem;
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin-top: -1rem;
+}
+
+.pastors_tray{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pastors_details{
+    text-align: center;
+    align-items: center;
+}
+
+.pastor_img{
+    border-radius: 7px;
+    width: 340px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pastor_name{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.pastor_post{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: -0.8rem;
+    color: #178d13;
+}
+
+@media screen and (max-width: 700px) {
+    .pastors_container{
+        height: auto;
+        padding: 0;
+    }
+
+    .pastors_tray{
+        display: block;
+    }
+
+    .pastors_details{
+        margin-bottom: 2rem;
+    }
+
+    .pastor_img{
+        width: 90%;
+    }
+}
