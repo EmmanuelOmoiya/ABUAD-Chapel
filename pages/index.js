@@ -15,7 +15,7 @@ const Home = () => {
           name="description"
           content="Afe Babalola University (ABUAD) Chapel"
         />
-        <meta key="og-title" property="og:title" content="Emmanuel Omoiya" />
+        <meta key="og-title" property="og:title" content="ABUAD Chapel" />
         <meta
           key="og-description"
           property="og:description"
@@ -26,7 +26,7 @@ const Home = () => {
           property="og:url"
           content={`https://twitter.com/Emmanuel_Omoiya`}
         />
-        <meta key="twitter-title" name="twitter:title" content="Emmanuel Omoiya" />
+        <meta key="twitter-title" name="twitter:title" content="ABUAD Chapel" />
         <meta
           key="twitter-description"
           name="twitter:description"
