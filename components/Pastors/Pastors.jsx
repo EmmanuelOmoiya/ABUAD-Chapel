@@ -12,7 +12,7 @@ const Pastors = () =>{
             <div className={styles.pastors_tray}>
                 {
                     pastors.map((pastor, index)=>{
-                        return (<div className={styles.pastors_details}>
+                        return (<div className={styles.pastors_details} key={index}>
                             <img src={pastor.img_url} alt={pastor.name} className={styles.pastor_img}/>
                             <p className={styles.pastor_name}>{pastor.name}</p>
                             <p className={styles.pastor_post}>{pastor.post}</p>
