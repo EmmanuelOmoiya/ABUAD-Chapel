@@ -6,7 +6,7 @@ import pastors from '../../data/pastors.json';
 
 const Pastors = () =>{
     return(
-        <div className={styles.pastors_container}>
+        <div className={styles.pastors_container} key={index}>
             <p className={styles.lead_pastors}>Lead Pastors</p>
             <p className={styles.meet_pastors}>Meet our Pastors</p>
             <div className={styles.pastors_tray}>

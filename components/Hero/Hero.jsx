@@ -27,7 +27,7 @@ React.useEffect(()=>{
           {
             data.map((item, index)=>{
                 return (
-                    <div className={styles.carousel}>
+                    <div className={styles.carousel} key={index}>
                         <div className={styles.carousel_content}>
                             <div className={styles.carousel_content_center}>
                                 <p className={styles.main_heading}>{item.heading}</p>

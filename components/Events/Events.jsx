@@ -13,7 +13,7 @@ const Events = () => {
                 {
                     events.map((event, index)=>{
                         return(
-                            <div className={styles.event_detail}>
+                            <div className={styles.event_detail} key={index}>
                                 <img src={event.img_url} alt="" className={styles.poster} />
                                 <p className={styles.poster_title}>{event.title}</p>
                                 <p className={styles.poster_description}>{event.description}</p>
