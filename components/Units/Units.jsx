@@ -34,7 +34,7 @@ const Units = () => {
                 {
                     units.map((unit, index)=>{
                         return(
-                            <div className={ `${index === activeIndex ? styles.unit_container_active : styles.unit_container}`} key={index}  style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
+                            <div className={ `${index === activeIndex ? styles.unit_container_active : styles.unit_container}`} key={index}  style={{ transform: `translateX(-${activeIndex * 117}%)` }}>
                                 <img src={unit.img_url} alt="" className={styles.unit_img} />
                                 <p className={styles.unit_name}>{unit.unit_name}</p>
                             </div>
