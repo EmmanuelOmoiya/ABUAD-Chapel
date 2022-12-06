@@ -6,7 +6,7 @@ import events from '../../data/events.json';
 
 const Events = () => {
     return(
-        <div className={styles.events_container} id="events_container">
+        <div className={styles.events_container} id="events">
             <p className={styles.events}>Activities</p>
             <p className={styles.upcoming}>Upcoming Events</p>
             <div className={styles.events_tray}>

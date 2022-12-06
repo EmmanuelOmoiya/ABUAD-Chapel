@@ -9,3 +9,4 @@ export { default as Footer } from './Footer/Footer';
 export { default as Whatwedo } from  './Whatwedo/Whatwedo';
 export { default as Units } from './Units/Units';
 export { default as Sermons } from './Sermons/Sermons';
+export { default as Toast } from './Toast/Toast';

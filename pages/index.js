@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from 'react';
-import { About, Header, Hero, Pastors, Sof, Events, Contact, Footer, Whatwedo, Units, Sermons } from '../components';
+import { About, Header, Hero, Pastors, Sof, Events, Contact, Footer, Whatwedo, Units, Sermons, Toast } from '../components';
 
 
 const Home = () => {

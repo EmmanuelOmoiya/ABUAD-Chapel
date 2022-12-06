@@ -12,7 +12,7 @@ const Whatwedo = () => {
                 <p className={styles.whfir_number}>24</p>
                 <div className={styles.wha_content}>
                     <p className={styles.wha_title}>Sunday Gatherings</p>
-                    <p className={styles.wha_content}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam labore, quaerat officia repudiandae qui natus expedita neque minima. Aliquid corrupti minus temporibus ratione quia?</p>
+                    <p className={styles.wha_content}>Whether it's your first time at church or you've gone to church for year, our Sunday gatherings are a welcoming place for you to enjoy worshipping Jesus with others</p>
                 </div>
             </div>
             </div>
@@ -21,7 +21,7 @@ const Whatwedo = () => {
                 <p className={styles.whsec_number}>15</p>
                 <div className={styles.wha_content}>
                 <p className={styles.wha_title}>KidSpring</p>
-                    <p className={styles.wha_content}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, quis quod nobis, perferendis nisi odit libero enim eveniet accusamus iure expedita placeat laudantium veritatis!</p>
+                    <p className={styles.wha_content}>Every Sunday, all children (babies through secndary school) experience safe, age-appropriate environments where the Bible is taught in a creative and releant way.</p>
                 </div>
             </div>
             </div>
@@ -30,7 +30,7 @@ const Whatwedo = () => {
                 <p className={styles.whthi_number}>27</p>
                 <div className={styles.wha_content}>
                 <p className={styles.wha_title}>Fuse</p>
-                <p className={styles.wha_content}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maxime aspernatur sequi amet, iure nihil voluptatum. Ipsa quasi atque delectus fugiat asperiores iste saepe?</p>
+                <p className={styles.wha_content}>Our ministry for students gives them a fun place to connect with God and others, so they will lead the next generation of the chapel and change the University / World.</p>
                 </div>
             </div>
             </div>

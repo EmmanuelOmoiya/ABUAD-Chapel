@@ -68,3 +68,13 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 768px){
+    .pastors_container{
+        height: auto;
+    }
+
+    .pastors_tray{
+        flex-wrap: wrap;
+    }
+}

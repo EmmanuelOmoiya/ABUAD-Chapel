@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+</head>
+
+<body style="
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../public/assets/font/Poppins-Regular.ttf');
+}
+      font-family: Poppins-Regular, sans-erif;
+      overflow-x: hidden;
+      background-color: #f5f5f5;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      line-height: 1.5;
+      overflow-x: hidden;
+      background-attachment: fixed;
+      color: black;
+    ">
+  <div style="
+        background-color: #f5f5f5;
+        padding: 20px;
+        font-family: 'Poppins-Regular', sans-serif;
+        text-align: center;
+      ">
+    <h1 class="hello" style="
+    color: #000;
+    font-size: 1rem;
+    ">Email by {{fullname}} from {{email}} on ABUAD Chapel Website</h1>
+    <center>
+      <div class="email-body" style="max-width: 500px">
+        <div style="color: #333333">
+          <p style="
+          text-align: left;
+          margin-top: 1.5rem
+          ">{{body}}</p>
+        </div>
+      </div>
+    </center>
+    <span class="divider"></span>
+    <div class="footer" style="color: #868080; margin-top: 1.5rem">
+      <p>
+        ABUAD Chapel Afe Babalola
+        University. Ado-Ekiti, Nigeria
+        <br />
+        <span class="text very-feint" style="font-size: 12px">Copyright © 2022</span>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>

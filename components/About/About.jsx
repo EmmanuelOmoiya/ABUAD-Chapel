@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 const About = () => {
     return (
-        <div className={styles.about_container} id="about_container">
+        <div className={styles.about_container} id="about">
             <div className={styles.about_text}>
                 <p className={styles.welcome_text}>Welcome</p>
                 <p className={styles.textabtchr}>About Our Chapel</p>
-                <p className={styles.about_content}>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fuga sint minima cum quia delectus dicta perferendis, consequatur officia quidem voluptatem vero fugit deserunt nesciunt quod consequuntur sit dolor ut porro iusto fugiat debitis voluptatibus? Explicabo earum similique optio?</p>
+                <p className={styles.about_content}>At ABUAD Chapel you won't be met with shame, guilt or condemnation. No matter what you've been through or what questions you might have, the chapel is a place where you'll find the grace, mercy and forgiveness. Jesus gives to everyone.</p>
                 <p className={styles.about_prompt}>Come and be part of our family this Sunday</p>
                 <p className={styles.watch_vid}>Watch Video</p>
             </div>

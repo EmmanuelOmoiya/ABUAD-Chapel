@@ -1,62 +1,194 @@
-.login_container{
+.payment_container{
+  height: 97vh;
+  background-image: url('/assets/images/paybg.jpg');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.payment_contain{
+  padding-top: 4.7rem;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(18, 44, 69, 0.442);
+}
+
+.payment_modal{
+  width: 27rem;
+  height: 22rem;
+  background-color: #fff;
+  border-radius: 12px;
   padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5.5%;
+  overflow: hidden;
+  display: flex;
 }
 
-.signup_container{
-  padding: .2rem 2rem;
+.inplabel{
+  font-family: 'Sora', sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: .55rem;
 }
 
-.signup_container > .form{
-  height: auto;
+.infoinp{
+  width: 100%;
+  /* height: 2.4rem; */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: .7rem;
+  padding-left: 1rem;
+  outline: none;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
 }
 
+.infoinp::placeholder{
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
 
-@media screen and (max-width: 480px) {
-  .form{
-    padding: 2rem;
-    border-radius: 7px;
-    margin-top: 4rem;
-    height: 70vh;
-    /* backdrop-filter: blur(1px); */
-    background-color: rgba(176, 170, 170, 0.7);
+.pay_next_btn{
+  width: 100%;
+  height: 2.5rem;
+  background-color: #26b094;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  border-radius: 4px;
+  border: none;
+  padding: 0.3rem;
+  margin-top: 2rem;
+  float: right;
+}
+
+/* .pay_next_btn::after{
+  content: "&#8594;";
+  margin-left: 1rem;
+} */
+
+.first_modal_move{
+  transition: .15s ease-in-out;
+  width: 100%;
+  animation: slideOut .3s ease-in
+}
+
+.first_modal{
+  display: none;
+  transition: .15s ease-in-out;
+}
+
+.second_modal_move{
+  color: #fff;
+  display: none;
+}
+
+.second_modal{
+  animation: slideIn .3s ease-in-out;
+  width: 100%;
+}
+
+@keyframes slideIn {
+  0%{
+    transform: translateX(15rem);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  0%{
+    transform: translateX(-15rem);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+.choose_btns{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay_btn{
+  width: auto;
+  height: 2.5rem;
+  background-color: #26b094;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  float: right;
+}
+
+.back_btn{
+  width: auto;
+  height: 2.5rem;
+  color: #26b094;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  float: right;
+}
+
+.back_btn:hover{
+  color: #fff;
+  background-color: #26b094;
+}
+
+.pay_btn:hover{
+  color: #26b094;
+  background-color: #fff;
+}
+
+.pay_options{
+  outline: none;
+  width: 100%;
+  padding: 0.5rem;
+  font-family: 'Poppins-Regular', sans-serif;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.pay_option:focus{
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .payment_modal{
+    width: 90%;
+    margin-top: 12%;
+    padding: 1.4rem;
+    height: auto;
   }
 
-  .loginh{
-    font-family: 'Poppins-Black', sans-serif;
-    font-size: 3rem;
+  .inplabel{
+    font-size: 1.1rem;
   }
 
-  .label{
-    font-size: 1.2rem;
-    margin-bottom: 0.4em;
-    font-weight: 700;
-    font-family: 'Poppins-light', sans-serif;
+  .infoinp{
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
   }
 
-  .input{
-    border: none;
-    padding: 0.8rem;
-    border-radius: 5px;
-    width: 100%;
-    outline: none;
-    font-family: 'Poppins-Light', sans-serif;
-    background-color: #eee;
-  }
-
-  .input::placeholder{
-    color: #bbb;
-    font-family: 'Poppins-Light', sans-serif;
-  }
-
-  .login{
-    border: none;
-    width: 100%;
-    font-size: 1.3rem;
-    border-radius: 6px;
-    font-family: 'Poppins-light';
-    font-weight: 900;
-    background-color: #3232d8;
-    color: #fff;
-    padding: 0.5rem;
+  .infoinp::placeholder{
+    font-size: 0.9rem;
   }
 }
