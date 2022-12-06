@@ -57,7 +57,7 @@ const Sermons = () => {
             {
                     sermons.map((sermon, index)=>{
                         return(
-            <p className={`${index === activeIndex ? styles.indicators_active : styles.indicators}`} onClick={()=> updateIndex(index)}>hola{index+1}</p>
+            <p className={`${index === activeIndex ? styles.indicators_active : styles.indicators}`} onClick={()=> updateIndex(index)} key={index}>hola{index+1}</p>
             )})
         }
         </div>

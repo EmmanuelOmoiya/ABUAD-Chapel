@@ -51,7 +51,7 @@ const Sof = () => {
                         <p className={styles.rte_sof} onClick={()=> setOpen3(!open3)}>Salvation</p>
                         <p className={open3 ? styles.salva_cont : styles.salva_cont_non}>
                             The Word of God declares clearly that salvation is a free gift of God, based on the meris of the death of His Son, and is appropriated
-                            by faith. Salvation is affected by personal repentance, belief in the lord Jesus (justification), and personal acceptance of Him into one's life as Lord and Saviour (regenration)
+                            by faith. Salvation is affected by personal repentance, belief in the lord Jesus (justification), and personal acceptance of Him into one&apos;s life as Lord and Saviour (regenration)
                         </p>
                     </div>
                 </div>

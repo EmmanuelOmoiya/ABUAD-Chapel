@@ -12,7 +12,7 @@ const Whatwedo = () => {
                 <p className={styles.whfir_number}>24</p>
                 <div className={styles.wha_content}>
                     <p className={styles.wha_title}>Sunday Gatherings</p>
-                    <p className={styles.wha_content}>Whether it's your first time at church or you've gone to church for year, our Sunday gatherings are a welcoming place for you to enjoy worshipping Jesus with others</p>
+                    <p className={styles.wha_content}>Whether it&apos;s your first time at church or you&#39;ve gone to church for year, our Sunday gatherings are a welcoming place for you to enjoy worshipping Jesus with others</p>
                 </div>
             </div>
             </div>
